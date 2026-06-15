@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Autorizzazione TikTok - IF1L</title>
+  <style>
+    body { max-width: 700px; margin: 64px auto; padding: 0 24px; font: 18px/1.6 system-ui, sans-serif; }
+    h1 { color: #c90015; }
+    code { overflow-wrap: anywhere; }
+  </style>
+</head>
+<body>
+  <h1>Autorizzazione TikTok ricevuta</h1>
+  <p>Lascia aperta questa pagina e copia l'indirizzo completo dalla barra del browser nella procedura IF1L.</p>
+  <p><code id="callback"></code></p>
+  <script>document.getElementById("callback").textContent = location.href;</script>
+</body>
+</html>
